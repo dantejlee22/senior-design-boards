@@ -3553,7 +3553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-23F_TOS"
+		(property "Footprint" "ssm3j3:SOT-23F_TOS"
 			(at 232.41 74.93 0)
 			(effects
 				(font
@@ -4431,7 +4431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-23F_TOS"
+		(property "Footprint" "ssm3j3:SOT-23F_TOS"
 			(at 31.75 81.28 0)
 			(effects
 				(font

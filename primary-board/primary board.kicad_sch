@@ -4325,7 +4325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 121.92 55.88 0)
 			(effects
 				(font
@@ -6028,7 +6028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-100x"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 121.92 76.2 0)
 			(effects
 				(font
@@ -6768,7 +6768,7 @@
 			)
 		)
 		(instances
-			(project "mcu board"
+			(project "primary board"
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
 					(page "2")
 				)
