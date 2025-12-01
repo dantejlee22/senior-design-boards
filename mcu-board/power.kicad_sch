@@ -3194,6 +3194,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 154.94) (xy 31.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3fb4bb8-cbaf-488b-8032-8693c30166ec")
+	)
+	(wire
+		(pts
 			(xy 73.66 85.09) (xy 73.66 87.63)
 		)
 		(stroke
@@ -3331,6 +3341,16 @@
 			(type default)
 		)
 		(uuid "f8aef075-66f5-4c88-b93f-0d31bf14fdfe")
+	)
+	(wire
+		(pts
+			(xy 31.75 162.56) (xy 31.75 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb05f9b-2160-42e5-b4fa-fb9a09388d7c")
 	)
 	(wire
 		(pts
@@ -4607,7 +4627,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 154.94 0)
+		(at 31.75 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4616,7 +4636,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab7c6469-1c04-450c-8400-1881e62fea4f")
 		(property "Reference" "#PWR04"
-			(at 31.75 161.29 0)
+			(at 31.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4645,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 160.02 0)
+			(at 31.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 154.94 0)
+			(at 31.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 154.94 0)
+			(at 31.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 154.94 0)
+			(at 31.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,6 +5572,73 @@
 			(project "mcu board"
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 31.75 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6605f31-3624-4a87-8845-ec8ace63bec1")
+		(property "Reference" "R6"
+			(at 34.671 158.877 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 35.306 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 31.75 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 31.75 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a7d247b-e3c2-438f-abd9-7e5c2a6281b2")
+		)
+		(pin "2"
+			(uuid "cc9d6b64-e5a3-4ea8-aba0-1418fe5053e9")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743/65b6e221-2db7-4e52-96fb-70ae76f49758"
+					(reference "R6")
 					(unit 1)
 				)
 			)

@@ -2953,7 +2953,7 @@
 	)
 	(text "blinky for testing mcu"
 		(exclude_from_sim no)
-		(at 217.932 47.244 0)
+		(at 212.09 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3129,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 64.77) (xy 248.92 64.77)
+			(xy 228.6 64.77) (xy 248.92 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3199,16 +3199,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 50.8) (xy 215.9 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2720c061-ee8c-4f5f-86f9-fbcf41f1ef02")
-	)
-	(wire
-		(pts
 			(xy 151.13 31.75) (xy 151.13 33.02)
 		)
 		(stroke
@@ -3236,6 +3226,16 @@
 			(type default)
 		)
 		(uuid "2ff4de1d-347e-4c69-bda1-0f79f80809be")
+	)
+	(wire
+		(pts
+			(xy 215.9 50.8) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f062f8-0300-4de4-8045-f769f9cd6422")
 	)
 	(wire
 		(pts
@@ -3289,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 55.88) (xy 152.4 55.88)
+			(xy 133.35 55.88) (xy 152.4 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3299,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 58.42) (xy 152.4 58.42)
+			(xy 133.35 58.42) (xy 152.4 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 40.64) (xy 248.92 40.64)
+			(xy 236.22 40.64) (xy 248.92 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 152.4 53.34)
+			(xy 133.35 53.34) (xy 152.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 60.96) (xy 152.4 60.96)
+			(xy 133.35 60.96) (xy 152.4 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3419,7 +3419,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 86.36) (xy 248.92 86.36)
+			(xy 228.6 86.36) (xy 248.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3579,7 +3579,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 62.23) (xy 248.92 62.23)
+			(xy 237.49 62.23) (xy 248.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 50.8) (xy 152.4 50.8)
+			(xy 133.35 50.8) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3686,6 +3686,16 @@
 			(type default)
 		)
 		(uuid "db42288f-696a-4289-b59a-3a138c40d0c4")
+	)
+	(wire
+		(pts
+			(xy 215.9 58.42) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbef539b-3985-4347-991f-32b83e49a53c")
 	)
 	(wire
 		(pts
@@ -3789,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 83.82) (xy 248.92 83.82)
+			(xy 237.49 83.82) (xy 248.92 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3819,7 +3829,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 43.18) (xy 248.92 43.18)
+			(xy 228.6 43.18) (xy 248.92 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3857,8 +3867,8 @@
 		)
 		(uuid "02f10465-f887-4807-8b9b-3bead3fa71bf")
 	)
-	(label "MCU_IO15"
-		(at 138.43 55.88 0)
+	(label "FORWARD_INT"
+		(at 133.35 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3867,8 +3877,8 @@
 		)
 		(uuid "04b969f4-7caa-4be0-a96d-2195acb131a7")
 	)
-	(label "MCU_IO4"
-		(at 238.76 86.36 0)
+	(label "LEFT_SHUTDOWN"
+		(at 228.6 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3877,8 +3887,8 @@
 		)
 		(uuid "084b0833-d097-48e7-9d65-35b2a09c24ea")
 	)
-	(label "MCU_IO16"
-		(at 138.43 58.42 0)
+	(label "RIGHT_INT"
+		(at 133.35 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3907,8 +3917,8 @@
 		)
 		(uuid "28910993-0489-40b6-8204-87f76dcd3e3f")
 	)
-	(label "MCU_IO17"
-		(at 238.76 83.82 0)
+	(label "LEFT_INT"
+		(at 237.49 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3917,8 +3927,8 @@
 		)
 		(uuid "3c2ba1ce-5adf-42f6-a8ac-1616e0be25c9")
 	)
-	(label "MCU_IO15"
-		(at 238.76 40.64 0)
+	(label "FORWARD_INT"
+		(at 236.22 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3927,8 +3937,8 @@
 		)
 		(uuid "3e5a08a3-5a6a-4abd-8359-374852bb1beb")
 	)
-	(label "MCU_IO17"
-		(at 138.43 60.96 0)
+	(label "LEFT_INT"
+		(at 133.35 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3947,8 +3957,8 @@
 		)
 		(uuid "5866aada-71be-4c06-94dd-cda2d1f8c2a7")
 	)
-	(label "MCU_IO6"
-		(at 138.43 50.8 0)
+	(label "FORWARD_SHUTDOWN"
+		(at 133.35 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3957,8 +3967,8 @@
 		)
 		(uuid "58af53ec-652c-4767-8964-dcecf03ab76f")
 	)
-	(label "MCU_IO7"
-		(at 138.43 53.34 0)
+	(label "RIGHT_SHUTDOWN"
+		(at 133.35 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3987,7 +3997,7 @@
 		)
 		(uuid "80e93344-999f-4535-b671-a5dec86fb410")
 	)
-	(label "MCU_IO4"
+	(label "LEFT_SHUTDOWN"
 		(at 138.43 45.72 0)
 		(effects
 			(font
@@ -4117,8 +4127,8 @@
 		)
 		(uuid "ecac0a32-6db2-4149-9841-1afae2401b42")
 	)
-	(label "MCU_IO16"
-		(at 238.76 62.23 0)
+	(label "RIGHT_INT"
+		(at 237.49 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4127,8 +4137,8 @@
 		)
 		(uuid "ef4acb9f-e6a3-46c5-9f42-c466b998fa28")
 	)
-	(label "MCU_IO6"
-		(at 238.76 43.18 0)
+	(label "FORWARD_SHUTDOWN"
+		(at 228.6 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4137,8 +4147,8 @@
 		)
 		(uuid "f09cfaaa-98ff-44ab-ab50-7b820b5c39c7")
 	)
-	(label "MCU_IO7"
-		(at 238.76 64.77 0)
+	(label "RIGHT_SHUTDOWN"
+		(at 228.6 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4820,7 +4830,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4860e2c8-8026-4363-8488-4907861aaa2c")
 		(property "Reference" "#PWR011"
 			(at 234.95 82.55 0)
@@ -4832,7 +4841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 81.28 0)
+			(at 233.426 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +5243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 52.07 0)
+		(at 215.9 60.96 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5244,7 +5253,7 @@
 		(fields_autoplaced yes)
 		(uuid "869a7465-8b41-460a-9bc2-2502bd6ff94e")
 		(property "Reference" "#PWR014"
-			(at 215.9 58.42 0)
+			(at 215.9 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 57.15 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 52.07 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 52.07 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5288,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 52.07 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5793,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b593a759-5a5b-474c-bc01-e4195eaea10c")
 		(property "Reference" "#PWR012"
 			(at 234.95 60.96 0)
@@ -5796,7 +5804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 59.69 0)
+			(at 233.426 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6078,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdb2a951-9720-4c5a-a0fa-e6628d67a807")
 		(property "Reference" "#PWR013"
 			(at 234.95 39.37 0)
@@ -6082,7 +6089,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 38.1 0)
+			(at 233.426 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,6 +6661,73 @@
 			(project ""
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 215.9 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8ee5a16-2626-4a9f-aa5f-2b045beef678")
+		(property "Reference" "R5"
+			(at 218.821 54.737 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 219.456 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73056ede-404f-4d42-bbc5-9645ccf6db99")
+		)
+		(pin "2"
+			(uuid "71ae8078-4e57-4409-a76d-1b01f1945342")
+		)
+		(instances
+			(project "mcu board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
+					(reference "R5")
 					(unit 1)
 				)
 			)
