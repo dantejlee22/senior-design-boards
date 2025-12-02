@@ -1167,6 +1167,16 @@
 		)
 		(uuid "9269fe9e-6d2d-4d1c-ac90-363feeb1eac5")
 	)
+	(text "pull-up resistors will be on primary board"
+		(exclude_from_sim no)
+		(at 44.704 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef88086f-5628-488d-a3ed-596b485c1f0d")
+	)
 	(junction
 		(at 106.68 22.86)
 		(diameter 0)
@@ -2540,7 +2550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 53.34 50.7999 0)
 			(effects
 				(font
@@ -2610,7 +2620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 76.2 38.0999 0)
 			(effects
 				(font
