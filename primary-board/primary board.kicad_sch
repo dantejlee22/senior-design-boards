@@ -4316,16 +4316,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 83.82) (xy 161.29 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27624f15-4dc1-4c23-9c89-72d4b3ef4644")
-	)
-	(wire
-		(pts
 			(xy 151.13 31.75) (xy 151.13 33.02)
 		)
 		(stroke
@@ -5386,6 +5376,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 83.82) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93d25e4-5310-4917-b2e0-24eac653ead0")
+	)
+	(wire
+		(pts
 			(xy 85.09 161.29) (xy 97.79 161.29)
 		)
 		(stroke
@@ -6055,7 +6055,7 @@
 		(uuid "dc3d5a4b-afdc-41f9-8142-72fd7a84ad6d")
 	)
 	(label "FAULT_HBRIDGE"
-		(at 161.29 99.06 90)
+		(at 166.37 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
