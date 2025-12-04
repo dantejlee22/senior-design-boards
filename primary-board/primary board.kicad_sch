@@ -3938,6 +3938,16 @@
 		)
 		(uuid "1b37cdd8-af77-4786-9c18-328334fce32e")
 	)
+	(text "I2C Pullups"
+		(exclude_from_sim no)
+		(at 212.598 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a80e1cd-abc8-497a-ae1d-f3cdd9cb3211")
+	)
 	(text "Motor Control and Encoding"
 		(exclude_from_sim no)
 		(at 90.932 102.87 0)
@@ -3993,6 +4003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "354a733a-c33d-4da5-a496-0cd98f46296c")
+	)
+	(junction
+		(at 223.52 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c08473d-2205-4605-b408-bae97d55981e")
 	)
 	(junction
 		(at 151.13 33.02)
@@ -4156,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 129.54) (xy 217.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb118b1-0d8c-421c-8fa3-007ed5612c00")
+	)
+	(wire
+		(pts
 			(xy 82.55 59.69) (xy 82.55 57.15)
 		)
 		(stroke
@@ -4193,6 +4219,16 @@
 			(type default)
 		)
 		(uuid "188e5c9a-4c9c-441d-9a38-605d6e536412")
+	)
+	(wire
+		(pts
+			(xy 223.52 120.65) (xy 223.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b755936-7772-4b79-9b20-f1f3dd26e945")
 	)
 	(wire
 		(pts
@@ -4456,6 +4492,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 124.46) (xy 229.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39340b3e-f8bb-4b65-8ac5-a0887c1d63e8")
+	)
+	(wire
+		(pts
 			(xy 129.54 63.5) (xy 129.54 62.23)
 		)
 		(stroke
@@ -4463,6 +4509,16 @@
 			(type default)
 		)
 		(uuid "3b21e621-f310-4a5b-93e1-a9bd2f3d19e5")
+	)
+	(wire
+		(pts
+			(xy 217.17 124.46) (xy 223.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b88062c-816f-4bec-9230-292a0c5ae2e5")
 	)
 	(wire
 		(pts
@@ -4483,6 +4539,16 @@
 			(type default)
 		)
 		(uuid "3d1dea70-1c3b-4509-b408-216cbe292b7c")
+	)
+	(polyline
+		(pts
+			(xy 237.49 110.49) (xy 237.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0344e2-ec71-42c0-8a38-bff51e694ae5")
 	)
 	(wire
 		(pts
@@ -4776,6 +4842,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 135.89) (xy 217.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672ae80e-e5db-4403-9fe0-b3b215c1e463")
+	)
+	(wire
+		(pts
 			(xy 152.4 158.75) (xy 148.59 158.75)
 		)
 		(stroke
@@ -4823,6 +4899,16 @@
 			(type default)
 		)
 		(uuid "6fc874eb-9473-4b86-a61a-2c83ca32a499")
+	)
+	(polyline
+		(pts
+			(xy 205.74 148.59) (xy 205.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734743f1-883a-4f45-997a-06061901ddef")
 	)
 	(wire
 		(pts
@@ -5144,6 +5230,26 @@
 		)
 		(uuid "c2686096-ccbd-47a7-a9bd-49a6d39a6419")
 	)
+	(polyline
+		(pts
+			(xy 237.49 148.59) (xy 205.74 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2be1729-5bca-435e-8e4b-fe439d134dd3")
+	)
+	(wire
+		(pts
+			(xy 223.52 124.46) (xy 229.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dd5693-628b-4c61-9432-6dc869222442")
+	)
 	(wire
 		(pts
 			(xy 142.24 34.29) (xy 142.24 33.02)
@@ -5396,6 +5502,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 135.89) (xy 229.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb57b2ac-2706-46ec-8f09-34fe3fc582bd")
+	)
+	(wire
+		(pts
 			(xy 234.95 54.61) (xy 248.92 54.61)
 		)
 		(stroke
@@ -5644,6 +5760,16 @@
 		)
 		(uuid "10bb0037-f6e3-4b6e-8288-fa4a8a357055")
 	)
+	(label "MCU_SCL"
+		(at 229.87 135.89 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "162f95f6-80e9-4278-af46-a9a0737ba4d1")
+	)
 	(label "RIGHT_INT"
 		(at 133.35 58.42 0)
 		(effects
@@ -5783,6 +5909,16 @@
 			(justify right bottom)
 		)
 		(uuid "6a285b1d-fcc4-48d6-b774-5d0c795314d5")
+	)
+	(label "MCU_SDA"
+		(at 217.17 135.89 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a520495-6082-42ee-83cf-216240d2c561")
 	)
 	(label "RIGHT_SHUTDOWN"
 		(at 133.35 53.34 0)
@@ -6575,6 +6711,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 229.87 132.08 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14117f16-d220-42e5-a2ce-81bed679cc76")
+		(property "Reference" "R11"
+			(at 225.552 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 226.06 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 229.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 229.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "834c744c-2951-4af9-b5a2-008caa8dd118")
+		)
+		(pin "2"
+			(uuid "557c9254-f50d-4b6d-baad-708f408a44f1")
+		)
+		(instances
+			(project "primary board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GeamMotorEnc_connector_1")
 		(lib_id "mouseLib:GeamMotorEnc_connector")
 		(at 111.76 118.11 0)
@@ -6971,6 +7175,72 @@
 			(project ""
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 223.52 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35cea2a0-266c-48fa-aa12-99692b5bbdb8")
+		(property "Reference" "#PWR036"
+			(at 223.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 223.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 223.52 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da82ddf2-abfc-40fb-8c23-31c9adab5614")
+		)
+		(instances
+			(project ""
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8555,6 +8825,74 @@
 			(project ""
 				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 217.17 132.08 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2443247-b91a-465f-819f-9088a813516a")
+		(property "Reference" "R10"
+			(at 212.852 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e959264e-46a2-438b-9dc1-29042e62ec8e")
+		)
+		(pin "2"
+			(uuid "4c85b8a7-41d4-492e-a6e7-bedc04466d4c")
+		)
+		(instances
+			(project "primary board"
+				(path "/e926887c-cd26-4f47-be51-3352b14f6743"
+					(reference "R10")
 					(unit 1)
 				)
 			)
