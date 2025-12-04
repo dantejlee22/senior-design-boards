@@ -1785,8 +1785,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "../EESDLib.3dshapes/ESP32-S3-WROOM-1.STEP"
-			(hide yes)
+		(model "../mouseLib/mouselib.3dshapes/ESP32-S3-WROOM-1.STEP"
 			(offset
 				(xyz -9 -9.6 0)
 			)
@@ -1795,17 +1794,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "C:/Users/rschafe2/Documents/MyKiCad/MyLibs/mouseLib/mouselib.3dshapes/ESP32-S3-WROOM-1.STEP"
-			(offset
-				(xyz -9 -9.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -1875,7 +1863,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c7e8fc13-5aaa-4509-bad4-3134277e6db4")
+			(uuid "472fe490-6550-41dd-b109-9234e9ae0046")
 		)
 		(fp_line
 			(start -7.5 -4.3)
@@ -1885,7 +1873,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f27cc7f9-64d9-4bf6-bcbd-fea90d449f71")
+			(uuid "15208406-6fc7-4254-91f0-868c82f253a2")
 		)
 		(fp_line
 			(start -7.5 -4.3)
@@ -1895,7 +1883,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fcc7fbc8-bb92-4893-b9e9-a6538124e4b6")
+			(uuid "070f3f89-048a-4ee9-8503-98ca1c8dda05")
 		)
 		(fp_line
 			(start 7.5 -4.3)
@@ -1905,7 +1893,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bca713e1-184d-43af-9da2-b4d323d8d5fa")
+			(uuid "af845131-452b-4ce9-b08d-888c577cb829")
 		)
 		(fp_line
 			(start 7.5 -4.3)
@@ -1915,7 +1903,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "8e7abd95-8d94-41e8-8f31-812db3316c0a")
+			(uuid "7ca57eda-e2c1-4dba-ac06-72364891d709")
 		)
 		(fp_line
 			(start 8.9 4.2)
@@ -1925,7 +1913,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "122ae697-87bf-48ac-b7d1-f7e75312b424")
+			(uuid "b44b782c-27d2-4ebd-b8cd-04d69bd1e075")
 		)
 		(fp_rect
 			(start -6.8 -4.3)
@@ -1936,7 +1924,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "1dba3c7d-4db6-44a6-b578-ee5cc59705fd")
+			(uuid "ad6a7a30-b8f7-46bc-9641-eb209c604f02")
 		)
 		(fp_arc
 			(start -8.9 4.2)
@@ -1947,7 +1935,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "afb3f852-c1a6-469a-a096-ce51851dc8e3")
+			(uuid "47499ff9-cd0d-42fa-afd0-1591eec52d98")
 		)
 		(fp_arc
 			(start 8.9 -4.3)
@@ -1958,7 +1946,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1106e214-2a3a-49bb-9926-86b6ed81c9d3")
+			(uuid "a5170a02-f8c9-4a75-944f-2a0f8e7872a6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -1976,20 +1964,20 @@
 			(at -9 0)
 			(size 3.5 3.5)
 			(drill 2.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c8f9bf40-c53a-470b-835e-290b4abcad97")
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "589417c3-b105-4e14-9d24-5981574d18f0")
 		)
 		(pad "" np_thru_hole circle
 			(at 9 0)
 			(size 3.5 3.5)
 			(drill 2.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "bb11c07b-d3a6-4964-a52d-3d5112c998ca")
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "f42a1d97-9577-4dec-94c3-24d857bd428e")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/rschafe2/Documents/MyKiCad/MyLibs/EESDLib/EESDLib.3dshapes/mmgm-pm-enc-side-con.step"
+		(model "../mouseLib/mouselib.3dshapes/micro-metal-gearmotor-extended-with-1086-bracket (1).step"
 			(offset
-				(xyz 0 -5 0)
+				(xyz 0 -5 5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4742,6 +4730,17 @@
 			(uuid "68c1c596-4d2f-48e6-8b05-8a7d26d9da39")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/drv8411/RTE0016C.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -7342,7 +7341,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c53d699e-afac-499e-a869-ef45089c3fa8")
+			(uuid "42fad4e4-7648-4bfe-b692-afa5eb623df9")
 		)
 		(fp_line
 			(start 7.5 -4.3)
@@ -7352,7 +7351,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d25c3ed6-c099-4f43-8ef0-98ab5852c09c")
+			(uuid "f883eeb8-b536-4180-91b1-8e5be9265381")
 		)
 		(fp_line
 			(start 7.5 -4.3)
@@ -7362,7 +7361,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ef068495-0d13-446a-9fdb-d763319d636f")
+			(uuid "c8ffde93-980f-4709-8d36-16ede1224440")
 		)
 		(fp_line
 			(start -7.5 -4.3)
@@ -7372,7 +7371,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f2a207e3-a84e-4dc2-93ed-93d42a0fb20a")
+			(uuid "8a0822b5-2984-4848-b39b-132926aafe1b")
 		)
 		(fp_line
 			(start -7.5 -4.3)
@@ -7382,7 +7381,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "bfbb41c7-0725-436c-94f2-b3e7e196edc5")
+			(uuid "001b3921-5098-4fb5-8662-27fd1f1eec12")
 		)
 		(fp_line
 			(start -8.9 4.2)
@@ -7392,7 +7391,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6c83d551-3318-41a6-bcb4-3bff838032c9")
+			(uuid "c5918b55-25f1-428d-b523-c6df21d46dd8")
 		)
 		(fp_rect
 			(start -6.8 -4.3)
@@ -7403,7 +7402,7 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "58a02a11-1203-4b08-a62f-9214a9f57da0")
+			(uuid "2f2f74b8-2a22-43ec-99f2-6518f326c976")
 		)
 		(fp_arc
 			(start 8.9 -4.3)
@@ -7414,7 +7413,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8239abdf-c46e-40f5-a3c7-bef4f93c1d99")
+			(uuid "9acc62b2-1eaf-4d64-a30b-327a140211af")
 		)
 		(fp_arc
 			(start -8.9 4.2)
@@ -7425,7 +7424,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "794c2f84-d6a6-4531-be8e-c01937b55470")
+			(uuid "96e25746-7b0f-42c0-b601-17ca40d395da")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 180)
@@ -7443,20 +7442,20 @@
 			(at -9 0 180)
 			(size 3.5 3.5)
 			(drill 2.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "4def5fd0-0e99-4cda-9584-599ed4b10dbe")
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "ba8f3f7f-d967-4fcc-8423-f26b60acea1a")
 		)
 		(pad "" np_thru_hole circle
 			(at 9 0 180)
 			(size 3.5 3.5)
 			(drill 2.5)
-			(layers "*.Cu" "*.Mask")
-			(uuid "c22d1778-bf64-4f54-8dc8-148b480dd647")
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "bf3061c7-4f2b-4e6f-8a7b-e28494b96708")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/rschafe2/Documents/MyKiCad/MyLibs/EESDLib/EESDLib.3dshapes/mmgm-pm-enc-side-con.step"
+		(model "../mouseLib/mouselib.3dshapes/micro-metal-gearmotor-extended-with-1086-bracket (1).step"
 			(offset
-				(xyz 0 -5 0)
+				(xyz 0 -5 5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8361,7 +8360,7 @@
 			(uuid "d9ecae5f-08a4-4efb-8e3c-88da5b8754f9")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/rschafe2/Documents/MyKiCad/MyLibs/RMSmouseLib/mouselib.3dshapes/BM06B-SRSS-TB.STEP"
+		(model "../mouseLib/mouselib.3dshapes/BM06B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1 0)
 			)
@@ -14076,7 +14075,7 @@
 			(uuid "9d9405e0-27d3-48af-8175-c89b57199036")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/rschafe2/Documents/MyKiCad/MyLibs/RMSmouseLib/mouselib.3dshapes/BM06B-SRSS-TB.STEP"
+		(model "../mouseLib/mouselib.3dshapes/BM06B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1 0)
 			)
