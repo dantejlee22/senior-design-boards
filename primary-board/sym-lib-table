@@ -3,4 +3,5 @@
   (lib (name "mouseLib")(type "KiCad")(uri "${KIPRJMOD}/../mouseLib/mouselib.kicad_sym")(options "")(descr ""))
   (lib (name "ssm3j3")(type "KiCad")(uri "${KIPRJMOD}/ssm3j328r/2025-11-20_19-37-10.kicad_sym")(options "")(descr ""))
   (lib (name "drv8411")(type "KiCad")(uri "${KIPRJMOD}/drv8411/2025-12-02_00-37-14.kicad_sym")(options "")(descr ""))
+  (lib (name "cs12anw03")(type "KiCad")(uri "${KIPRJMOD}/cs12anw03/KiCADv6/2025-12-14_06-11-06.kicad_sym")(options "")(descr ""))
 )
