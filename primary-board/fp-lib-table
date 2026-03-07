@@ -4,4 +4,5 @@
   (lib (name "ssm3j3")(type "KiCad")(uri "${KIPRJMOD}/ssm3j328r/footprints.pretty")(options "")(descr ""))
   (lib (name "drv8411")(type "KiCad")(uri "${KIPRJMOD}/drv8411/footprints.pretty")(options "")(descr ""))
   (lib (name "cs12anw03")(type "KiCad")(uri "${KIPRJMOD}/cs12anw03/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "sfh-313-fa")(type "KiCad")(uri "${KIPRJMOD}/sfh_313_fa/footprints.pretty")(options "")(descr ""))
 )

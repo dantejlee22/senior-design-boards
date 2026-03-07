@@ -635,6 +635,10 @@
     [
       "65b6e221-2db7-4e52-96fb-70ae76f49758",
       "power-subsystem"
+    ],
+    [
+      "23af2975-3a2a-45d9-8d55-d559abb7d2c0",
+      "sensors"
     ]
   ],
   "text_variables": {}
