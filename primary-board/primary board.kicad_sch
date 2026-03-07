@@ -5382,16 +5382,6 @@
 		)
 		(uuid "4e3382b8-1881-4c9f-b6e8-012be8cb8245")
 	)
-	(label "MCU_SCL"
-		(at 201.93 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5866aada-71be-4c06-94dd-cda2d1f8c2a7")
-	)
 	(label "M1_LEFT"
 		(at 80.01 153.67 0)
 		(effects
@@ -5531,16 +5521,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8f5f73d-72ad-4ff7-b186-1da90e749a3f")
-	)
-	(label "MCU_SDA"
-		(at 201.93 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba40e386-9adc-415c-9c19-b42939b2467a")
 	)
 	(label "M1_LEFT"
 		(at 128.27 124.46 180)
@@ -5714,6 +5694,28 @@
 			)
 		)
 	)
+	(global_label "MCU_SDA"
+		(shape input)
+		(at 201.93 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0636b1f0-f88a-4be1-884a-21f859123b8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.5028 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ir_led_right"
 		(shape input)
 		(at 152.4 58.42 180)
@@ -5798,6 +5800,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_SCL"
+		(shape input)
+		(at 201.93 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a206f7f8-5fcc-4fd0-94ac-8fa42c88a5e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.4423 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
